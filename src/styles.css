@@ -1,0 +1,70 @@
+* {
+    font-family: 'Arimo', sans-serif;
+    font-size: 55px;
+    background-color: rgb(207, 115, 54);
+  }
+  body {
+    color: white;
+    padding: 30px;
+  }
+  
+  button{
+    color:rgb(70, 62, 62);
+    padding: 30px;
+    background-color: rgb(73, 72, 28);
+    margin-top: 30px;
+    box-shadow: 1px 1px 10px rgba(189, 4, 4, 0.918);
+  }
+
+  input {
+    background-color: rgb(105, 87, 87);
+    border-radius: 20px;
+    border: 15px solid rgb(66, 59, 59);
+    color: rgb(29, 26, 26);
+    font-size: 1.2rem;
+    outline: 5px solid black;
+    padding: 25px 1px;
+    width: 100%;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+  }
+  
+  h3 {
+    font-size: 3rem;
+    margin-bottom: 5px;
+  }
+  
+  .card-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    align-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.03);
+    display: flex;
+    flex-direction: column;
+    height: 0%;  
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    overflow: hidden;
+  }
+  
+  .card p {
+    flex: 1;
+    font-size: 1.5rem;
+    margin-top: 5px;
+    padding: 5px 20px 0px 20px;
+    text-align: center;
+  }
+  
+  .card img {
+    width: 30%;
+  }
